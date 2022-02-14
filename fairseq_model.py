@@ -6,9 +6,63 @@
 # can be found in the PATENTS file in the same directory.
 
 
+import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
-from . import FairseqDecoder, FairseqEncoder
+class FairseqEncoder(nn.Module):
+    """Base class for encoders."""
+
+    def __init__(self, dictionary):
+        super().__init__()
+        self.dictionary = dictionary
+
+    def forward(self, src_tokens, src_lengths):
+        raise NotImplementedError
+
+    def reorder_encoder_out(self, encoder_out, new_order):
+        """Reorder encoder output according to new_order."""
+        raise NotImplementedError
+
+    def max_positions(self):
+        """Maximum input length supported by the encoder."""
+        raise NotImplementedError
+
+    def upgrade_state_dict(self, state_dict):
+        return state_dict
+
+
+class FairseqDecoder(nn.Module):
+    """Base class for decoders."""
+
+    def __init__(self, dictionary):
+        super().__init__()
+        self.dictionary = dictionary
+
+    def forward(self, prev_output_tokens, encoder_out):
+        raise NotImplementedError
+
+    def get_normalized_probs(self, net_output, log_probs, sample):
+        """Get normalized probabilities (or log probs) from a net's output."""
+
+        if hasattr(self, 'adaptive_softmax') and self.adaptive_softmax is not None:
+            assert sample is not None and 'target' in sample
+            out = self.adaptive_softmax.get_log_prob(net_output[0], sample['target'])
+            return out.exp_() if not log_probs else out
+
+        #logits = net_output[0].float()
+        logits = net_output[0] #.float()
+        if log_probs:
+            return F.log_softmax(logits, dim=-1, dtype=torch.float32)
+        else:
+            return F.softmax(logits, dim=-1, dtype=torch.float32)
+
+    def max_positions(self):
+        """Maximum input length supported by the decoder."""
+        raise NotImplementedError
+
+    def upgrade_state_dict(self, state_dict):
+        return state_dict
 
 
 class BaseFairseqModel(nn.Module):
@@ -47,7 +101,6 @@ class BaseFairseqModel(nn.Module):
     def load_state_dict(self, state_dict, strict=True):
         """Copies parameters and buffers from state_dict into this module and
         its descendants.
-
         Overrides the method in nn.Module; compared with that method this
         additionally "upgrades" state_dicts from old checkpoints.
         """
