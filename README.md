@@ -36,6 +36,10 @@
 
 ## You must be familiar with, and prepared to explain, the following concepts or terminology:
 
+- The format for demonstrating knowledge in these areas will be a question and answer session
+with the expectation that you can demonstrate the ability to field student questions and
+understand the concepts at a deeper level than those attending a workshop.
+
 | NLP tasks |  NLP challenges  |
 | :---: | :---: |
 | **Embeddings** |  **Word2Vec and Glove**  |
@@ -55,9 +59,6 @@
 | **Kubeflow** | **NVIDIA Riva** |
 | **ONNYX** | **BLEU** |
 
-- The format for demonstrating knowledge in these areas will be a question and answer session
-with the expectation that you can demonstrate the ability to field student questions and
-understand the concepts at a deeper level than those attending a workshop.
 
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
