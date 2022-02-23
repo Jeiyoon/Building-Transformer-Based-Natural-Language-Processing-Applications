@@ -34,6 +34,23 @@
 - NLP에대한 윤리적인 문제
 ~~~
 
+## you must be familiar with, and prepared to explain, the following concepts or terminology:
+
+| RMSE/MSE |  Adam/Adagrad/RMSProp  |
+| :---: | :---: |
+| **Softmax classifiers** |  **SGD/GD**  |
+| **Cross-entropy** | **CNNs** |
+| **RNNs/LSTMs** | **GANs** |
+| **AutoEncoders** | [**Reinforcement Learning**](https://jeiyoon.github.io/data/ipa_3.pdf) |
+| **Natural Language Processing (basics)** | **Training, validation, and test datasets** |
+| **Pooling** | **Padding** |
+| **Overfitting** | **Hyperparameters** |
+| **Features** | **Parameters** |
+| **Activation functions** | **Transfer Learning** |
+| **Frameworks** | **Image Classification** |
+| **Dropout** | **Forwards and backwards propagation** |
+
+
 ## Memo
 
 ~~~
