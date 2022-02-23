@@ -34,18 +34,18 @@
 - NLP에대한 윤리적인 문제
 ~~~
 
-## you must be familiar with, and prepared to explain, the following concepts or terminology:
+## You must be familiar with, and prepared to explain, the following concepts or terminology:
 
 | NLP tasks |  NLP challenges  |
 | :---: | :---: |
-| **Softmax classifiers** |  **SGD/GD**  |
-| **Cross-entropy** | **CNNs** |
-| **RNNs/LSTMs** | **GANs** |
-| **AutoEncoders** | [**Reinforcement Learning**](https://jeiyoon.github.io/data/ipa_3.pdf) |
-| **Natural Language Processing (basics)** | **Training, validation, and test datasets** |
-| **Pooling** | **Padding** |
-| **Overfitting** | **Hyperparameters** |
-| **Features** | **Parameters** |
+| **Embeddings** |  **Word2Vec and Glove**  |
+| **LSA / LDA** | **Auto Encoder** |
+| **RNNs / LSTMs** | **ELMO** |
+| **ULM-FIT** | **NMT**|
+| **Seq2Seq** | **Positional encoding** |
+| **Self-attention** | **Multi-head attention** |
+| **Masking** | **GPT, GPT2, GPT3** |
+| **BERT** | **RoBERTA** |
 | **Activation functions** | **Transfer Learning** |
 | **Frameworks** | **Image Classification** |
 | **Dropout** | **Forwards and backwards propagation** |
