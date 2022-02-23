@@ -71,11 +71,12 @@ and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
   - Includes a detailed discussion on Beam Search, BLEU and NMTs
 
 - [Quick overview of the concept of embeddings](https://www.youtube.com/watch?v=186HUTBQnpY)
-- Learning embeddings in an embedding layer
-- Embeddings developed using GloVe
-- NLP Tasks Leaderboard
-- NLP Datasets
-- GLUE Benchmark
+- [Learning embeddings in an embedding layer](https://www.youtube.com/watch?v=xtPXjvwCt64)
+- [Embeddings developed using GloVe](https://www.youtube.com/watch?v=oUpuABKoElw)
+- [NLP Tasks Leaderboard](https://www.paperswithcode.com/area/natural-language-processing)
+- [NLP Datasets](https://machinelearningmastery.com/datasets-natural-language-processing/)
+  - [Contains SOTA for common NLP tasks and datasets](https://nlpprogress.com/)
+- [GLUE Benchmark](https://gluebenchmark.com/)
 
 ## Memo
 
