@@ -1,29 +1,29 @@
 ## Specialization
 
-- 1. Data Science Specialization
+- Data Science Specialization
 
-  - a. Accelerating Data Engineering Pipelines
-  - b. Fundamentals of Accelerated Data Science
-  - c. Fundamentals of Deep Learning
+  - (1) Accelerating Data Engineering Pipelines
+  - (2) Fundamentals of Accelerated Data Science
+  - (3) Fundamentals of Deep Learning
   
   
-- 2. Deep Learning Specialization
+- Deep Learning Specialization
 
-  - a. Fundamentals of Deep Learning
-  - b. Applications of AI for Anomaly Detection (OR AI for Predictive Maintenance)
-  - c. Fundamentals of Deep Learning for Multi-GPUs
+  - (1) Fundamentals of Deep Learning
+  - (2) Applications of AI for Anomaly Detection (OR AI for Predictive Maintenance)
+  - (3) Fundamentals of Deep Learning for Multi-GPUs
 
-- 3. Conversational AI Specialization
+- Conversational AI Specialization
 
-  - a. Building Transformer-Based Natural Language Processing Applications
-  - b. Building Conversational AI Applications
-  - c. Building Intelligent Recommender Systems
+  - (1) Building Transformer-Based Natural Language Processing Applications
+  - (2) Building Conversational AI Applications
+  - (3) Building Intelligent Recommender Systems
 
-- 4. Accelerated Computing Specialization
+- Accelerated Computing Specialization
 
-  - a. Fundamentals of Accelerated Computing with CUDA C/C++ (OR Python)
-  - b. Accelerating CUDA C++ Applications with Multiple GPUs
-  - c. Scaling CUDA C++ Applications to Multiple Nodes
+  - (1) Fundamentals of Accelerated Computing with CUDA C/C++ (OR Python)
+  - (2) Accelerating CUDA C++ Applications with Multiple GPUs
+  - (3) Scaling CUDA C++ Applications to Multiple Nodes
 
 
 ## 혜택: 
