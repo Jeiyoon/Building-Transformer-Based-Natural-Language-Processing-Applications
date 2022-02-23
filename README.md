@@ -46,10 +46,18 @@
 | **Self-attention** | **Multi-head attention** |
 | **Masking** | **GPT, GPT2, GPT3** |
 | **BERT** | **RoBERTA** |
-| **Activation functions** | **Transfer Learning** |
-| **Frameworks** | **Image Classification** |
-| **Dropout** | **Forwards and backwards propagation** |
+| **Megatron** | **Transformer XL** |
+| **XLNet** | **ALBERT** |
+| **ELECTRA** | **ERNIE 2.0** |
+| **T-NLG** | **NeMo** |
+| **BioBERT** | **BioMegatron** |
+| **TensorRT** | **NVIDIA Triton Inference Server** |
+| **Kubeflow** | **NVIDIA Riva** |
+| **ONNYX** | **BLEU** |
 
+- The format for demonstrating knowledge in these areas will be a question and answer session
+with the expectation that you can demonstrate the ability to field student questions and
+understand the concepts at a deeper level than those attending a workshop.
 
 ## Memo
 
