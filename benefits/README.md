@@ -4,18 +4,18 @@
 
   - (1) Accelerating Data Engineering Pipelines
   - (2) Fundamentals of Accelerated Data Science
-  - (3) Fundamentals of Deep Learning
+  - (3) Fundamentals of Deep Learning [✔]
   
   
 - Deep Learning Specialization
 
-  - (1) Fundamentals of Deep Learning
+  - (1) Fundamentals of Deep Learning [✔]
   - (2) Applications of AI for Anomaly Detection (OR AI for Predictive Maintenance)
   - (3) Fundamentals of Deep Learning for Multi-GPUs
 
 - Conversational AI Specialization
 
-  - (1) Building Transformer-Based Natural Language Processing Applications
+  - (1) Building Transformer-Based Natural Language Processing Applications [✔]
   - (2) Building Conversational AI Applications
   - (3) Building Intelligent Recommender Systems
 
