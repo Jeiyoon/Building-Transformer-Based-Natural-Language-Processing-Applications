@@ -59,6 +59,19 @@
 with the expectation that you can demonstrate the ability to field student questions and
 understand the concepts at a deeper level than those attending a workshop.
 
+- Attention Is All You Need
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+- Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest
+Can Be Pruned
+- The Evolved Transformer
+- XLNet: Generalized Autoregressive Pretraining for Language Understanding
+- Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
+and Self-Attention
+- Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 8 – Translation,
+Seq2Seq, Attention
+
+- Quick overview of the concept of embeddings
+
 ## Memo
 
 ~~~
