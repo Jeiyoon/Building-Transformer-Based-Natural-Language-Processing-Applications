@@ -36,7 +36,7 @@
 
 ## you must be familiar with, and prepared to explain, the following concepts or terminology:
 
-| RMSE/MSE |  Adam/Adagrad/RMSProp  |
+| NLP tasks |  NLP challenges  |
 | :---: | :---: |
 | **Softmax classifiers** |  **SGD/GD**  |
 | **Cross-entropy** | **CNNs** |
