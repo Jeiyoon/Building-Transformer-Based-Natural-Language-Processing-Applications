@@ -58,8 +58,10 @@ Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) [✔]
 - [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf)
 - [Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
 and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
+  - takeaways
 - [Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 8 – Translation,Seq2Seq, Attention](https://www.youtube.com/watch?v=XXtpJxZBa2c&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=8)
   - Includes a detailed discussion on Beam Search, BLEU and NMTs
+  - takeaways
 
 - [Quick overview of the concept of embeddings](https://www.youtube.com/watch?v=186HUTBQnpY)
 - [Learning embeddings in an embedding layer](https://www.youtube.com/watch?v=xtPXjvwCt64)
