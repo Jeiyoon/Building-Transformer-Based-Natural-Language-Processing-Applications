@@ -50,10 +50,10 @@ understand the concepts at a deeper level than those attending a workshop.
 | **ONNYX** | **BLEU** |
 
 
-- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
-- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
-- [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest
-Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf)
+- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) [✔]
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) [✔]
+- [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest 
+Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) [✔] 
 - [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf)
 - [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf)
 - [Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
