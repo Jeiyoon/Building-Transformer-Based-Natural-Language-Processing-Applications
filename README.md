@@ -55,8 +55,10 @@ understand the concepts at a deeper level than those attending a workshop.
 - [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest 
 Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) [✔]
   - takeaways
-- [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf)
-- [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf)
+- [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf) [✔]
+  - takeaways
+- [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) [✔]
+  - takeaways
 - [Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
 and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
   - takeaways
