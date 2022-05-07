@@ -73,7 +73,7 @@ and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
 - [NLP Datasets](https://machinelearningmastery.com/datasets-natural-language-processing/)
   - [Contains SOTA for common NLP tasks and datasets](https://nlpprogress.com/)
 - [GLUE Benchmark](https://gluebenchmark.com/)
-
+- [positional encoding](https://skyjwoo.tistory.com/entry/positional-encoding%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
 ## Memo
 
 ~~~
