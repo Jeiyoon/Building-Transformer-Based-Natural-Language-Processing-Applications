@@ -57,14 +57,73 @@ without using the RNN things, has a great advantage compared to the existing mod
 "What are typical models using Transformer?"
 
 (1) BERT
-- 
+- Transformer encoders are stacked in both directions.
+- BERT is pretrained on a large amount of data, and then fine-tuned for downstream tasks.
+- BERT has the advantage of not having to change the model design for each task.
+- Pretrain process consists of "Masking language model" and "Next sentence prediction".
+- "Masked language model" learns by applying a mask randomly in three ways with 
+a 15% probability and matching it 
+- Given two sampled sentences, "Next sentence prediction" learns by changing following sentence 
+with a 50% probability, and guessing whether it has changed.
+
 
 (2) GPT-n
-- 
+
+<GPT>
+- GPT is a forward language model using a Transformer decoder stacks.
+- Unsupervised pre-training using unlabeled text
+- and then Supervised fine-tuning using manually annotated dataset
+
+
+<GPT-2>
+- Zero-shot task transfer, When only minimal or no supervised data is available, and
+Ability to optimize the unsupervised objective to convergence
+- Auto-regressive model
+- Masked Self-Attention
+
+
+<GPT-3>
+- Few-shot learning
+- Task prompt
+
 
 (3) Ernie
+- ERNIE(Enhanced Representation through kNowledge IntEgration)
+
+- Most of the previous models just predict the masked word within the context, 
+which does not take into account prior knowledge of the sentence.
+- For example, in the sentence “Harry Potter is a series of fantasy novels written by J. K. Rowling”, 
+Harry Potter is the name of the novel, J.K. Rowling is the author's name.
+- Unlike human, the model can't recognize Harry Potter and J.K. Rowling's relationship.
+
+- BERT masks each word with a certain probability and predicts it, 
+but ERNIE masks not only words but also entities and phrases as a unit.
+
+- Transformer Encoder
+
+- Phrase-level masking is a conceptual unit that masks an entire phrase composed of several words.
+- Entity-level masking masks entities consisting of multiple words.
+
 (4) XLNet
-~~
+- 
+
+
+~~~
+
+
+~~~
+5.
+What is the problem with bag of words?
+- Bag of Words(BOW) is a model that creates feature values by ignoring the context or order of words
+and assigning frequency values to words.
+
+- Since BOW does not consider the order of words, the contextual meaning is ignored.
+- To alleviate this, the n_gram technique can be used, but it is limited.
+
+- Words are far more likely to not appear from document to document because each document is made up of different words.
+- Therefore, most columns will be filled with zeros.
+- In a matrix composed of a large number of columns, a matrix in which most values are filled with zeros is called a "sparse matrix".
+~~~
 
 ~~~
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
