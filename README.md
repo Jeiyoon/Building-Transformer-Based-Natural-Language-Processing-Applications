@@ -25,7 +25,29 @@
 
 ~~~
 2. 
+
+"What is tokenization?"
+
+- Given a corpus, dividing this corpus into tokens is called tokenization.
+- A token is usually defined as a meaningful unit such as word, sentence, and morpheme.
+
+
+"Describe the process of tokenizing."
+- Basically previous tokenization methods consist of word tokenization, sentence tokenization, morpheme tokenization and so on.
+- And the tokenization rules should be defined according to the language, or how special characters are used within the corpus.
+- A sentence tokenization, for instance, can be divided based on punctuation. 
+- But, punctuation or special characters should not be simply excluded, but rather separated according to more complex rules.
+
+
+"Why do we need tokenization?"
+- The reason for tokenization is to make the language recognizable and able to be processed by the computer.
+
+
+"Please explain the problems of the existing tokenization methods and how to solve them."
+- 
 ~~~
+
+
 
 
 ~~~
