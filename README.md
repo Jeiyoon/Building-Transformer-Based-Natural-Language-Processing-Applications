@@ -15,9 +15,10 @@
 
 ~~~
 "What was the important neural network architecture yard before Transformer came out?"
-~~~
 
 - CNNs are useful algorithms for finding patterns for analyzing images.
+~~~
+
 
 ~~~
 - 
