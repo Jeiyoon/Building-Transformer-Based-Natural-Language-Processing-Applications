@@ -17,6 +17,8 @@
 "What was the important neural network architecture yard before Transformer came out?"
 ~~~
 
+- CNNs are useful algorithms for finding patterns for analyzing images.
+
 ~~~
 - 
 - NLP처리과정(토크나이징 하는 과정 왜 토크나이징을 진행했는지 등 기존과정의 문제점과 이를 메이크업하기위한 방법론)
