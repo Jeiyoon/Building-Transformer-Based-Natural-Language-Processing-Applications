@@ -105,6 +105,7 @@ but ERNIE masks not only words but also entities and phrases as a unit.
 - Entity-level masking masks entities consisting of multiple words.
 
 (4) XLNet
+- Permutaion Language Model
 - 
 
 
