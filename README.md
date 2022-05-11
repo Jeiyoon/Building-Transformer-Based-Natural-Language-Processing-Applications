@@ -67,14 +67,21 @@ without using the RNN things, has a great advantage compared to the existing mod
 ~~~
 4. 
 
-""
+"What are typical models using Transformer?"
+
+(1) BERT
+- 
+
+(2) GPT-n
+- 
+
+(3) Ernie
+(4) XLNet
 ~~
 
 ~~~
-- 트랜스포머의 대표적인 아키텍쳐의 차이점들(ernie, xlnet, )
+
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
-- 로버타 or XLN 같은건 안중요함 (그래도 일단은 공부)
-- 버트 GPT제대로 알아라
 - NLP에대한 윤리적인 문제
 - nvidia 제품 (e.g. megatron, 쿠버네티스)
 ~~~
