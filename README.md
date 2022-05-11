@@ -45,9 +45,11 @@
 
 "Please explain the problems of the existing tokenization methods and how to solve them."
 - No matter how many words we teach our computer, we can't let a computer know all the words in the world.
-- If a word that the computer does not know appears, the token is expressed as UNK (Unknown Token) in the sense that the word is not in the word set.
+- If a word that the computer does not know appears, the token is expressed as UNK (Unknown Token) 
+in the sense that the word is not in the word set.
 - This out-of-vocabulary (OOV) problem sharply degrades the performance of natural language processing models.
-- So we can employ Subword segmenation method such as Byte pair encoding (BPE) to encode and embed a word by splitting it into multiple subwords.
+- So we can employ Subword segmenation method such as Byte pair encoding (BPE) to encode and embed a word
+by splitting it into multiple subwords.
 ~~~
 
 ~~~
