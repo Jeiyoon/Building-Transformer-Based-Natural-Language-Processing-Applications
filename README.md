@@ -14,9 +14,11 @@
 ## 예상 질문:
 
 ~~~
-"What was the important neural network architecture yard before Transformer came out?"
+1 ."What was the important neural network architecture yard before Transformer came out?"
 
-- CNNs are useful algorithms for finding patterns for analyzing images.
+- Multilayer perceptron (MLPs), CNNs, and RNNs
+- CNNs are useful neural network which is used for finding and analyzing patterns from images or videos.
+- RNNs 
 ~~~
 
 
