@@ -59,12 +59,19 @@ without using the RNN things, has a great advantage compared to the existing mod
 (1) BERT
 - Transformer encoders are stacked in both directions.
 - BERT is pretrained on a large amount of data, and then fine-tuned for downstream tasks.
+
 - BERT has the advantage of not having to change the model design for each task.
 - Pretrain process consists of "Masking language model" and "Next sentence prediction".
 - "Masked language model" learns by applying a mask randomly in three ways with 
 a 15% probability and matching it 
 - Given two sampled sentences, "Next sentence prediction" learns by changing following sentence 
 with a 50% probability, and guessing whether it has changed.
+
+- However, AE is not without its drawbacks.
+- The biggest problem is that it assumes that the masked tokens are independent of each other.
+- In this case, the dependency between the masking tokens cannot be determined.
+
+- BERT also has the disadvantage that it is difficult to learn long contexts.
 
 
 (2) GPT-n
@@ -104,10 +111,19 @@ but ERNIE masks not only words but also entities and phrases as a unit.
 - Phrase-level masking is a conceptual unit that masks an entire phrase composed of several words.
 - Entity-level masking masks entities consisting of multiple words.
 
-(4) XLNet
-- Permutaion Language Model
-- 
 
+(4) XLNet
+- Alleviating BERT's problems
+- To overcome the limitations of AR and AE models, XLNet proposed a permutaion language model.
+- Unlike BERT, which assumes independence between predicted words (masking tokens), 
+the permutation language model is advantageous for capturing inter-word dependencies.
+
+- Two-Stream Self Attention: query stream and content stream
+- When creating a content stream, it utilizes the token information corresponding to the previous context and itself.
+- Until now, I've seen the words "school", "yesterday", "go to", The word to match this time was first in the original sentence.
+What is this word?
+
+- Due to permutation, the model faces a contradiction in that it takes the same input and produces different outputs.
 
 ~~~
 
