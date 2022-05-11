@@ -55,17 +55,28 @@ by splitting it into multiple subwords.
 ~~~
 3. 
 
+"Please explain the advantages of transformers compared to existing neural networks."
+- Previous most of the deep learning models based on Recurrent Neural Network (RNN) or RNN + Attention are used.
+- However, RNN-based deep learning models have a problem of sequentially processing input sequence data 
+rather than parallel processing.
+- Also, there is a problem of long-term dependency according to the length of the input sequence.
+- Therefore, the Transformer, which overcomes the shortcomings of RNNs by only the attention technique 
+without using the RNN things, has a great advantage compared to the existing models.
+~~~
+
+~~~
+4. 
+
 ""
-~~~
+~~
 
-
 ~~~
-- 
-- 트랜스포머의 대표적인 아키텍쳐의 차이점들
+- 트랜스포머의 대표적인 아키텍쳐의 차이점들(ernie, xlnet, )
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
 - 로버타 or XLN 같은건 안중요함 (그래도 일단은 공부)
 - 버트 GPT제대로 알아라
 - NLP에대한 윤리적인 문제
+- nvidia 제품 (e.g. megatron, 쿠버네티스)
 ~~~
 
 ## You must be familiar with, and prepared to explain, the following concepts or terminology:
