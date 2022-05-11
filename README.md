@@ -14,7 +14,11 @@
 ## 예상 질문:
 
 ~~~
-- 트랜스포머 이전의 신경망 이전에 중요한 아키텍쳐가 뭐뭐 있냐
+"What was the important neural network architecture yard before Transformer came out?"
+~~~
+
+~~~
+- 
 - NLP처리과정(토크나이징 하는 과정 왜 토크나이징을 진행했는지 등 기존과정의 문제점과 이를 메이크업하기위한 방법론)
 - 실제 트렌스포머의 장점이 뭔지
 - 트랜스포머의 대표적인 아키텍쳐의 차이점들
