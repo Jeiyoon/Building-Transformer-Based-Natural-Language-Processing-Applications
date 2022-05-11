@@ -44,16 +44,21 @@
 
 
 "Please explain the problems of the existing tokenization methods and how to solve them."
-- 
+- No matter how many words we teach our computer, we can't let a computer know all the words in the world.
+- If a word that the computer does not know appears, the token is expressed as UNK (Unknown Token) in the sense that the word is not in the word set.
+- This out-of-vocabulary (OOV) problem sharply degrades the performance of natural language processing models.
+- So we can employ Subword segmenation method such as Byte pair encoding (BPE) to encode and embed a word by splitting it into multiple subwords.
+~~~
+
+~~~
+3. 
+
+""
 ~~~
 
 
-
-
 ~~~
 - 
-- NLP처리과정()
-- 실제 트렌스포머의 장점이 뭔지
 - 트랜스포머의 대표적인 아키텍쳐의 차이점들
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
 - 로버타 or XLN 같은건 안중요함 (그래도 일단은 공부)
