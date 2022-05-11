@@ -14,17 +14,23 @@
 ## 예상 질문:
 
 ~~~
-1 ."What was the important neural network architecture yard before Transformer came out?"
+1 .
+
+"What was the important neural network architecture yard before Transformer came out?"
 
 - Multilayer perceptron (MLPs), CNNs, and RNNs
 - CNNs are useful neural network which is used for finding and analyzing patterns from images or videos.
-- RNNs 
+- RNNs are sequence models that processes inputs and outputs in sequence units.
+~~~
+
+~~~
+2. 
 ~~~
 
 
 ~~~
 - 
-- NLP처리과정(토크나이징 하는 과정 왜 토크나이징을 진행했는지 등 기존과정의 문제점과 이를 메이크업하기위한 방법론)
+- NLP처리과정()
 - 실제 트렌스포머의 장점이 뭔지
 - 트랜스포머의 대표적인 아키텍쳐의 차이점들
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
