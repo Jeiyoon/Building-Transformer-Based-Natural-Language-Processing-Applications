@@ -142,7 +142,10 @@ and assigning frequency values to words.
 - In a matrix composed of a large number of columns, a matrix in which most values are filled with zeros is called a "sparse matrix".
 ~~~
 
+
 ~~~
+et cetra.
+
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
 - NLP에대한 윤리적인 문제
 - nvidia 제품 (e.g. megatron, 쿠버네티스)
@@ -174,14 +177,14 @@ understand the concepts at a deeper level than those attending a workshop.
 | **ONNYX** | **BLEU** |
 
 
-- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) [✔]
-- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) [✔]
+- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 - [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest 
-Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) [✔]
+Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) 
   - takeaways
-- [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf) [✔]
+- [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf)
   - takeaways
-- [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) [✔]
+- [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
   - takeaways
 - [Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
 and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
@@ -198,6 +201,8 @@ and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
   - [Contains SOTA for common NLP tasks and datasets](https://nlpprogress.com/)
 - [GLUE Benchmark](https://gluebenchmark.com/)
 - [positional encoding](https://skyjwoo.tistory.com/entry/positional-encoding%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+
+
 ## Memo
 
 ~~~
