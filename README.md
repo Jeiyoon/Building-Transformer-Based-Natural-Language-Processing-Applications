@@ -142,6 +142,36 @@ and assigning frequency values to words.
 - In a matrix composed of a large number of columns, a matrix in which most values are filled with zeros is called a "sparse matrix".
 ~~~
 
+~~~
+6.
+"Word2vec vs. Glove"
+
+- Word2Vec  
+- There are two categories of methods in Word2vec: CBOW (Continuous Bag of Words) Skip-Gram. 
+- CBOW generates word vectors by matching the central word with the surrounding words.
+- Skip-Gram predictㄴ which words will come before and after a key word.
+- Word2Vec locally calculates cosine similarities given a sentence.
+
+- Glove (Global Vectors)
+- Authors criticized that Word2Vec poorly utilizes the statistics of the corpus since they train on separate local context windows instead of on global co-occurrence counts.
+- Glove aims to consider the statistical information of the corpus while it measures the similarity between word vectors using "the words’ probability of co-occurrence".
+~~~
+
+~~~
+7.
+
+"Transformer details"
+
+(1) No RNNs and Convolution
+
+- The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution.
+
+(2) Why normalization?
+
+- 
+
+~~~
+
 
 ~~~
 et cetra.
