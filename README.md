@@ -20,6 +20,7 @@
 
 
 "Describe the process of tokenizing."
+
 - Basically previous tokenization methods consist of word tokenization, sentence tokenization, morpheme tokenization and so on.
 - And the tokenization rules should be defined according to the language, or how special characters are used within the corpus.
 - A sentence tokenization, for instance, can be divided based on punctuation. 
@@ -27,16 +28,23 @@
 
 
 "Why do we need tokenization?"
+
 - The reason for tokenization is to make the language recognizable and able to be processed by the computer.
 
 
 "Please explain the problems of the existing tokenization methods and how to solve them."
+
 - No matter how many words we teach our computer, we can't let a computer know all the words in the world.
 - If a word that the computer does not know appears, the token is expressed as UNK (Unknown Token) 
 in the sense that the word is not in the word set.
 - This out-of-vocabulary (OOV) problem sharply degrades the performance of natural language processing models.
 - So we can employ Subword segmenation method such as Byte pair encoding (BPE) to encode and embed a word
 by splitting it into multiple subwords.
+
+"Upside and downside of Subword tokenizier"
+
+- We can get more tokens from a single word.
+- 
 ~~~
 
 ~~~
@@ -186,8 +194,61 @@ and assigning frequency values to words.
 - Authors hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of PEpos.
 - It prevents the distance between two words from becoming too small.
 - It equalizes the distance between two words.
+
+(6) Drawbacks
+
+- Since a segment of a fixed length is used as an input, it is difficult to learn a dependency longer than the corresponding length.
+- "Context Fragmentation": Since each segment was used by simply cutting consecutive tokens without considering semantic boundaries (sentences, etc.), the amount of information is insufficient to predict the first few tokens of the segment. 
 ~~~
 
+~~~
+8.
+
+"Two upsides of TransformerXL"
+
+- Segment-level recurrene mechanism (like RNN)
+- Relative positional encoding scheme (transformer -> absolute positional encoding): Instead of an absolute encoding representing the position of each token, it creates a relative encoding between 0 and Lmax representing the distance between two tokens.
+~~~
+
+~~~
+9.
+
+"A downside of BERT"
+
+- The biggest problem is that it assumes that the masked tokens are independent of each other.
+- In this case, the dependency between the masking tokens cannot be determined.
+- BERT also has the disadvantage that it is difficult to learn long contexts.
+- These are the reasons why "permutation LM (e.g. XLNet)" is needed
+~~~
+
+~~~
+10.
+
+"NVIDIA Products"
+
+(1) NeMo
+
+- NVIDIA NeMo is an interactive AI toolkit for researchers in automatic speech recognition (ASR), natural language processing (NLP), and speech synthesis systems (TTS).
+- NeMo consists of pytorchlightning & config file (yaml): traning script (three lines)
+
+(2) Hydra-runner Decorator (@hydra_runner)
+
+- Hydra_runner links configuration files and provides a mechanism for redefining the command line.
+- Simplify training process 
+- Let us know where configuration at 
+
+(3) Omegaconf
+
+- Each YAML section can be checked more easily with the omegaconf package
+
+(4) NVIDIA Triton Inference Server 
+
+- Simultaneous model execution (multiple models can be run simultaneously)
+- Dynamic batching (higher throughput)
+- Model live replacement (can be updated while server is running)
+- Docker container available (portable)
+- Multiple framework support (TensorRT, TensorFlow, PyTorch, ONNX)
+~~~
 
 ~~~
 et cetra.
@@ -195,6 +256,11 @@ et cetra.
 - 트랜스포머류 모델 발전과정의 두가지 흐름 (데이터셋의 흐름, 모델이 커짐)
 - NLP에대한 윤리적인 문제
 - nvidia 제품 (e.g. megatron, 쿠버네티스)
+- BERT: 30K
+- one-hot -> BERT input (그래서 보캡사이즈가 30K임)
+- 768 -> length of QKV (transformer는 512)
+- 512 -> positional encoding max sequence length
+- 2 -> sentence A and sentence B
 ~~~
 
 ## You must be familiar with, and prepared to explain, the following concepts or terminology:
