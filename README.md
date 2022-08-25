@@ -293,18 +293,12 @@ understand the concepts at a deeper level than those attending a workshop.
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 - [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest 
 Can Be Pruned](https://arxiv.org/pdf/1905.09418.pdf) 
-  - takeaways
 - [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf)
-  - takeaways
 - [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
-  - takeaways
 - [Stanford CS224N: NLP with Deep Learning – Winter 2019 – Lecture 14 – Transformers
 and Self-Attention](https://www.youtube.com/watch?v=5vcj8kSwBCY)
-  - takeaways
 - [Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 8 – Translation,Seq2Seq, Attention](https://www.youtube.com/watch?v=XXtpJxZBa2c&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=8)
   - Includes a detailed discussion on Beam Search, BLEU and NMTs
-  - takeaways
-
 - [Quick overview of the concept of embeddings](https://www.youtube.com/watch?v=186HUTBQnpY)
 - [Learning embeddings in an embedding layer](https://www.youtube.com/watch?v=xtPXjvwCt64)
 - [Embeddings developed using GloVe](https://www.youtube.com/watch?v=oUpuABKoElw)
