@@ -168,8 +168,24 @@ and assigning frequency values to words.
 
 (2) Why normalization?
 
-- 
+- In NLP tasks, the sentence length often varies. Thus, if using batchnorm, it would be uncertain what would be the appropriate normalization constant because of the total number of elements to divide by during normalization to use.
+- It can be proved that at the beginning of the optimization, for the original Transformer, which places the layer normalization between the residual blocks, the expected gradients of the parameters near the output layer are large. Then using a large learning rate on those gradients makes the training unstable. The warm-up stage is practically helpful to avoid this problem. 
+- Such an analysis motivates us to investigate a slightly modified Transformer architecture which locates the layer normalization inside the residual blocks
 
+(3) Why Transformer employs encoder-decoder architecture? (why sharing matrix)
+
+- The encoder maps an input sequence of symbol representations to a sequence of continuous representations.
+- The decoder then generates an output sequence of symbols one element at a time.
+
+(4) Why multi-head attention? not single head?
+
+- It allows the model to focus on different postions or sub-spaces
+
+(5) Positional Encoding
+
+- Authors hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of PEpos.
+- It prevents the distance between two words from becoming too small.
+- It equalizes the distance between two words.
 ~~~
 
 
